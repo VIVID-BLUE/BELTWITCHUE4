@@ -3,6 +3,17 @@
 	"EngineAssociation": "",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BeltWitch",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "MultiUserClient",
